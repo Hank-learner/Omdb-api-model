@@ -1,13 +1,5 @@
 <?php
-session_start();
-$servername = "localhost";
-$sqluser = "useromdbapi";
-$sqlpassword = "useromdbapi1!Q";
-$databasename = "omdbapi";
-$conn = mysqli_connect($servername, $sqluser, $sqlpassword, $databasename);
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+include_once('config.php');
 
 $user = $_SESSION['username'];
 $usersetstable = "user_" . $user;
