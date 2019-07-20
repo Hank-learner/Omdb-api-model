@@ -6,8 +6,6 @@ Apache 2 in ubuntu is used to host this server with mysql and php
 
 ### Instructions:
 
-download the pymysql library since it is used in the files else:sudo apt-get install python3-pymysql
-
 > 1.first make sure to update the root password in the sqlinitialisation.php for connecting to mysql <br>
 > 2.update the omdb api key and youtube api key in the variables in explorephp.php and home.php files<br>
 > 3.next copy omdb api folder to html<br>
